@@ -1,20 +1,20 @@
 import React from 'react';
 import Food from './Food';
 import FoodNav from './FoodNav';
-
-import { Route } from "react-router-dom";
-
+import Routes from './Routes';
+import Nav from "./Nav";
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <FoodNav />
+      {/* <FoodNav />
         <Route path="/food/:name">
           <Food />
-        </Route>
-
+        </Route> */}
+      <Nav />
+      <Routes />
     </div>
   );
 }
